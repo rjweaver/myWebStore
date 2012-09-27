@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true" path="/myWebStore">
+    
+ <Resource name="jdbc/store" auth="Container" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        username="root" password="root" 
+        driverClassName="com.mysql.jdbc.Driver" 
+        url="jdbc:mysql://localhost:3306/store?autoReconnect=true" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+
+
+</Context>
+
+
+
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/myWebStore">
+    
+ <Resource name="jdbc/rob1" auth="Container" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        username="root" password="root" 
+        driverClassName="com.mysql.jdbc.Driver" 
+        url="jdbc:mysql://localhost:3306/rob1?autoReconnect=true" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+        
+        </Context>
+        
+        
+         <Resource name="jdbc/rob_test" auth="Container" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        username="root" password="root" 
+        driverClassName="com.mysql.jdbc.Driver" 
+        url="jdbc:mysql://localhost:3306/rob_test?autoReconnect=true" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+        
+        -->
